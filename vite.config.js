@@ -18,4 +18,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   assetsInclude: ["**/*.JPG"],
+  base: '/PersonalPortfolio/', 
+  build: {
+    outDir: 'dist' 
+  }
 }));
